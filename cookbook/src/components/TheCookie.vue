@@ -8,8 +8,6 @@ import RecipeItem from './RecipeItem.vue'
 </script>
 
 <template>
-  
-
   <RecipeItem>
     <template #icon>
       <DocumentationIcon />
@@ -23,27 +21,18 @@ import RecipeItem from './RecipeItem.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Pillsbury Vanilla Frosting</template>
-
-    <p>?</p>
-  </RecipeItem>
-
-  <RecipeItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
-    <template #heading>Chocolate Chips</template>
-
-    <p>?</p>
-  </RecipeItem>
-
-  <RecipeItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
     <template #heading>Freeze Dried Strawberries</template>
 
     <p>2 bags (1 bag = 06oz = 17g)</p>
+  </RecipeItem>
+
+  <RecipeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Strawberry Extract</template>
+
+    <p>1/2 teaspoon</p>
   </RecipeItem>
 
   <RecipeItem>
@@ -64,21 +53,35 @@ import RecipeItem from './RecipeItem.vue'
     <p>1/2 cup</p>
   </RecipeItem>
 
-  <br/>
+  <RecipeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Pillsbury Vanilla Frosting</template>
+
+    <p>a cookie covering amount</p>
+  </RecipeItem>
+
+  <RecipeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Chocolate Chips</template>
+
+    <p>enough to glaze a cookie</p>
+  </RecipeItem>
+
+  <br />
   <div>
     References:
     <ul>
-      <li><a href="https://www.youtube.com/shorts/9mbdmXafmL0">
-        Strawberry Cookies Part 1
-      </a></li>
-      <li><a href="https://www.youtube.com/shorts/fMIulC260bk">
-        Strawberry Cookies Part 2
-      </a></li>
-      <li><a href="https://www.youtube.com/shorts/pD-J_9h6-FI">
-        Applesauce as a replacement for eggs?
-      </a></li>
+      <li><a href="https://www.youtube.com/shorts/9mbdmXafmL0"> Strawberry Cookies Part 1 </a></li>
+      <li><a href="https://www.youtube.com/shorts/fMIulC260bk"> Strawberry Cookies Part 2 </a></li>
+      <li>
+        <a href="https://www.youtube.com/shorts/pD-J_9h6-FI">
+          Applesauce as a replacement for eggs?
+        </a>
+      </li>
     </ul>
   </div>
-
-  
 </template>

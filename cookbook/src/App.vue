@@ -12,8 +12,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/recipe">Recipe</RouterLink>
-        <RouterLink to="/cookie">Crumble Cookie</RouterLink>
+        <!-- <RouterLink to="/recipe">Recipe</RouterLink> -->
+        <RouterLink to="/cookie">Chocolated Covered Strawberry Cookies</RouterLink>
       </nav>
     </div>
   </header>
