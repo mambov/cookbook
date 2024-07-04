@@ -7,9 +7,7 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>
-      Personal recipes. All vegetarian.
-    </h3>
+    <h3>Personal recipes. All vegetarian.</h3>
   </div>
 </template>
 
